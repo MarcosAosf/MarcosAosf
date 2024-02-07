@@ -23,7 +23,7 @@
  	<a href="https://ayo.so/delthapy" target="_blank"><img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" target="_blank"></a>
  <a href="https://discord.gg/fX77Z4mUAv" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
  
-  ![snake gif](https://github.com/SEU_USUARIO/MarcosAosf/blob/output/github-contribution-grid-snake.svg)
+  ![snake gif](https://github.com/MarcosAosf/MarcosAosf/blob/output/github-contribution-grid-snake.svg)
  
   
 
