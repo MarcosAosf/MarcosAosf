@@ -22,10 +22,34 @@
 ![Metasploit](https://img.shields.io/badge/Metasploit-%23FF0000.svg?style=for-the-badge&logo=metasploit&logoColor=white)
 ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=white)
 
+
+
+
 # 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=MarcosAosf&theme=shadow_red&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=MarcosAosf&theme=shadow_red&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=MarcosAosf&theme=shadow_red&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+<table border="0" width="100%">
+  <tr align="center">
+    <td>
+      <img src="https://github-readme-stats.shion.dev/api?username=MarcosAosf&theme=shadow_red&hide_border=false&include_all_commits=true&count_private=true" height="200px" width="465px" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=MarcosAosf&theme=shadow_red&hide_border=false&include_all_commits=true&count_private=true&layout=compact" height="200px" width="465px" />
+    </td>
+  </tr>
+  <tr align="center">
+    <td>
+      <a href="https://app.hackthebox.com/profile/2930902">
+        <img src="https://www.hackthebox.com/badge/image/2930902" height="120px" />
+      </a>
+    </td>
+    <td>
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=MarcosAosf&theme=react-dark&bg_color=0D1117&hide_border=false&color=ff0000&area=true&hide_title=true" height="150px" width="525px" />
+    </td>
+  </tr>
+</table>
+
+
+
 
 
 
