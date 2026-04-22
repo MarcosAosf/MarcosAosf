@@ -21,6 +21,8 @@
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Metasploit](https://img.shields.io/badge/Metasploit-%23FF0000.svg?style=for-the-badge&logo=metasploit&logoColor=white)
 ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=white)
+![HackTheBox](https://img.shields.io/badge/-HackTheBox-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black)
+![TryHackMe](https://img.shields.io/badge/-TryHackMe-880000?style=for-the-badge&logo=tryhackme&logoColor=white)
 
 
 
