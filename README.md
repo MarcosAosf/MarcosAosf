@@ -86,10 +86,16 @@ Atuo na sustentação de infraestrutura de conectividade corporativa, resoluçã
       </a>
     </td>
     <td style="border: none;">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=MarcosAosf&theme=react-dark&bg_color=0D1117&hide_border=true&color=00f3ff&area=true&hide_title=true" height="135px" width="100%" />
+      <img src="https://streak-stats.demolab.com/?user=MarcosAosf&theme=tokyonight&hide_border=true&background=0D1117" height="150px" />
     </td>
   </tr>
 </table>
+
+<br>
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
+</div>
 
 <br>
 
