@@ -27,13 +27,13 @@
 
 ```bash
 root@marcos:~# whoami
-Marcos Aosf — Analista de Suporte de Redes (N2) & Estudante de Cibersegurança
+Marcos Aosf — Analista de Suporte de Redes (N2) • Cibersegurança • Engenheiro de Automação
 ```
 
 Atuo na sustentação de infraestrutura de conectividade corporativa, resolução de incidentes críticos de camada 2 e camada 3, roteamento estático/dinâmico e automação de rotinas operacionais com scripts em Python e Bash.
 
 * 🌐 **Redes & Infraestrutura:** Roteadores e Switches Cisco (Catalyst, ISR), Mikrotik RouterOS, VLANs, Spanning-Tree, OSPF, BGP e análise de tráfego com Wireshark.
-* ⚡ **Automação de Redes (NetDevOps):** Desenvolvimento de scripts com Netmiko, Scapy, Paramiko e templates Jinja2 para backup automatizado e auditoria de configurações.
+* ⚡ **Automação de Redes & Infraestrutura:** Desenvolvimento de scripts com Netmiko, Scapy, Paramiko e templates Jinja2 para backup automatizado e auditoria de configurações.
 * 🛡️ **Segurança & Hardening:** Blindagem de servidores Linux, auditoria de regras de firewall (IPTables/UFW), análise de vulnerabilidades com Nmap e práticas de conformidade CIS.
 
 ---
