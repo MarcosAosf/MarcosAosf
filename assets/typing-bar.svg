@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 44" width="100%" height="44">
+  <defs>
+    <linearGradient id="barBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F0D18"/>
+      <stop offset="100%" stop-color="#09090D"/>
+    </linearGradient>
+    <filter id="cursorGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes blinkCursor {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes typeClip {
+      0% { width: 0px; }
+      70% { width: 560px; }
+      90% { width: 560px; }
+      100% { width: 560px; }
+    }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace; }
+    .amber-cursor { animation: blinkCursor 0.9s infinite; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="0" y="0" width="850" height="44" rx="4" fill="url(#barBg)" stroke="#251E3B" stroke-width="1.2"/>
+
+  <!-- Left Accent Notch -->
+  <rect x="0" y="0" width="4" height="44" rx="2" fill="#A855F7"/>
+
+  <!-- Terminal Prefix -->
+  <text x="24" y="27" fill="#A855F7" font-weight="700" font-size="13" class="mono">&gt;_</text>
+  
+  <!-- Terminal Static + Typewriter Text via SVG Clip -->
+  <g class="mono" font-size="13">
+    <!-- Masked Text to emulate typing -->
+    <svg x="52" y="10" width="700" height="30">
+      <text x="0" y="17" fill="#E2E8F0" font-weight="500" letter-spacing="0.3">
+        automatizando rotinas, gerenciando redes e blindando infraestrutura
+      </text>
+    </svg>
+    
+    <!-- Amber Terminal Cursor positioned after text -->
+    <rect x="635" y="13" width="8.5" height="18" fill="#F59E0B" filter="url(#cursorGlow)" class="amber-cursor"/>
+  </g>
+
+  <!-- Right Side Tag -->
+  <rect x="735" y="12" width="95" height="20" rx="3" fill="#171326" stroke="#251E3B" stroke-width="0.8"/>
+  <circle cx="748" cy="22" r="3" fill="#F59E0B"/>
+  <text x="758" y="26" fill="#94A3B8" font-size="9.5" font-weight="600" letter-spacing="0.8" class="mono">TTY_SOC:0</text>
+</svg>

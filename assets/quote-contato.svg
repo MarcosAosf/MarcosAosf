@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 42" width="100%" height="42">
+  <defs>
+    <linearGradient id="quoteGrad_2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#09090D" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#0F0D18"/>
+      <stop offset="50%" stop-color="#171326"/>
+      <stop offset="75%" stop-color="#0F0D18"/>
+      <stop offset="100%" stop-color="#09090D" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="quoteGlow_2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace; }
+  </style>
+
+  <rect x="0" y="0" width="850" height="42" fill="url(#quoteGrad_2)"/>
+  <line x1="80" y1="2" x2="770" y2="2" stroke="#251E3B" stroke-width="0.8"/>
+  <line x1="80" y1="40" x2="770" y2="40" stroke="#251E3B" stroke-width="0.8"/>
+
+  <g class="mono" text-anchor="middle">
+    <text x="425" y="25" fill="#A855F7" font-size="12" font-style="italic" font-weight="600" letter-spacing="0.8" filter="url(#quoteGlow_2)">
+      &gt; &quot;Canal criptografado aberto: pronto para colaborações e desafios.&quot;
+    </text>
+  </g>
+</svg>

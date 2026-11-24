@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 500" width="100%" height="500">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F0D18"/>
+      <stop offset="60%" stop-color="#0C0A14"/>
+      <stop offset="100%" stop-color="#09090D"/>
+    </linearGradient>
+
+    <linearGradient id="dropCapGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+
+    <filter id="purpleGlowCard" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="amberGlowCard" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes netPulse {
+      0%, 100% { transform: scale(1); opacity: 0.8; }
+      50% { transform: scale(1.08); opacity: 1; }
+    }
+    @keyframes ringSpin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes ringSpinRev {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .node-hub { transform-origin: 730px 170px; animation: ringSpin 24s linear infinite; }
+    .node-hub-rev { transform-origin: 730px 170px; animation: ringSpinRev 16s linear infinite; }
+    .center-core { transform-origin: 730px 170px; animation: netPulse 3s ease-in-out infinite; }
+  </style>
+
+  <!-- Card Background Surface -->
+  <rect x="0" y="0" width="850" height="500" rx="8" fill="url(#cardBg)" stroke="#251E3B" stroke-width="1.2"/>
+
+  <!-- Tactical Corner Crossbars -->
+  <path d="M 12 32 L 12 12 L 32 12" fill="none" stroke="#A855F7" stroke-width="2" filter="url(#purpleGlowCard)"/>
+  <path d="M 838 32 L 838 12 L 818 12" fill="none" stroke="#A855F7" stroke-width="2" filter="url(#purpleGlowCard)"/>
+  <path d="M 12 468 L 12 488 L 32 488" fill="none" stroke="#A855F7" stroke-width="2" filter="url(#purpleGlowCard)"/>
+  <path d="M 838 468 L 838 488 L 818 488" fill="none" stroke="#A855F7" stroke-width="2" filter="url(#purpleGlowCard)"/>
+
+  <!-- Card Header Indicator -->
+  <text x="35" y="38" fill="#94A3B8" font-size="9" letter-spacing="1.8" class="mono">DOSSIER // AGENT_FILE: MARCOS_AOSF</text>
+  <text x="740" y="38" fill="#F59E0B" font-size="9" font-weight="700" letter-spacing="1" class="mono">CONFIDENTIAL</text>
+  <line x1="35" y1="48" x2="815" y2="48" stroke="#251E3B" stroke-width="0.8"/>
+
+  <!-- Large Stylized Drop Cap Letter "A" (Automação / Aosf) -->
+  <g>
+    <rect x="35" y="65" width="46" height="58" rx="4" fill="#171326" stroke="#7C3AED" stroke-width="1"/>
+    <text x="44" y="112" fill="url(#dropCapGrad)" font-size="48" font-weight="900" class="mono" filter="url(#purpleGlowCard)">A</text>
+  </g>
+
+  <!-- Narrative Summary (aligned beside Drop Cap) -->
+  <g class="sans" fill="#E2E8F0" font-size="13.5" letter-spacing="0.2">
+    <text x="94" y="85">
+      <tspan font-weight="600" fill="#FBBF24">tuação em suporte técnico N2, infraestrutura de conectividade corporativa e redes.</tspan>
+    </text>
+    <text x="94" y="105">
+      Foco em diagnóstico de incidentes L2/L3, gerência de roteadores/switches Cisco e
+    </text>
+    <text x="35" y="132">
+      desenvolvimento de scripts de automação em Python e Bash para eliminar rotinas manuais.
+    </text>
+    <text x="35" y="154">
+      Integração de inteligência artificial aplicada ao suporte, pipelines autônomos e evolução
+    </text>
+    <text x="35" y="176">
+      contínua em arquitetura de redes resilientes, resposta a incidentes e cibersegurança defensiva.
+    </text>
+  </g>
+
+  <!-- Animated Interactive Network / Telemetry Mandala (Right Side) -->
+  <g>
+    <!-- Outer Orbit Ring -->
+    <circle cx="730" cy="170" r="70" fill="none" stroke="#251E3B" stroke-width="1.2" stroke-dasharray="4 6"/>
+    
+    <!-- Rotating Node Ring 1 -->
+    <g class="node-hub">
+      <circle cx="730" cy="170" r="50" fill="none" stroke="#7C3AED" stroke-width="1" stroke-dasharray="12 18"/>
+      <circle cx="780" cy="170" r="3.5" fill="#A855F7" filter="url(#purpleGlowCard)"/>
+      <circle cx="680" cy="170" r="3.5" fill="#A855F7"/>
+      <circle cx="730" cy="120" r="3.5" fill="#F59E0B" filter="url(#amberGlowCard)"/>
+      <circle cx="730" cy="220" r="3.5" fill="#C084FC"/>
+    </g>
+
+    <!-- Rotating Inner Ring 2 -->
+    <g class="node-hub-rev">
+      <polygon points="730,135 760,185 700,185" fill="none" stroke="#A855F7" stroke-width="0.8" stroke-opacity="0.6"/>
+      <circle cx="760" cy="185" r="2.5" fill="#FBBF24"/>
+      <circle cx="700" cy="185" r="2.5" fill="#FBBF24"/>
+    </g>
+
+    <!-- Center Pulse Core -->
+    <circle cx="730" cy="170" r="14" fill="#171326" stroke="#F59E0B" stroke-width="1.5" class="center-core" filter="url(#amberGlowCard)"/>
+    <circle cx="730" cy="170" r="5" fill="#F59E0B"/>
+    
+    <text x="693" y="256" fill="#94A3B8" font-size="8.5" letter-spacing="1" class="mono">SOC_ORCHESTRATOR</text>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="35" y1="205" x2="620" y2="205" stroke="#251E3B" stroke-width="1"/>
+
+  <!-- Technical Specification Matrix (HUD Key-Value Grid) -->
+  <g class="mono" font-size="11.5">
+    <!-- Item 1: CLASSE -->
+    <text x="35" y="240" fill="#F59E0B" font-weight="700">◇ CLASSE</text>
+    <text x="170" y="240" fill="#E2E8F0">Analista de Infraestrutura, Redes &amp; Automação</text>
+
+    <!-- Item 2: OPERAÇÃO -->
+    <text x="35" y="278" fill="#F59E0B" font-weight="700">◇ OPERAÇÃO</text>
+    <text x="170" y="278" fill="#E2E8F0">Redes, Cisco/VoIP, automação em Python e hardening</text>
+
+    <!-- Item 3: LABORATÓRIO -->
+    <text x="35" y="316" fill="#F59E0B" font-weight="700">◇ LABORATÓRIO</text>
+    <text x="170" y="316" fill="#E2E8F0">Aplicações web, scripts de rede, pipelines autônomos e agentes de IA</text>
+
+    <!-- Item 4: ESTUDOS -->
+    <text x="35" y="354" fill="#F59E0B" font-weight="700">◇ ESTUDOS</text>
+    <text x="170" y="354" fill="#E2E8F0">Cibersegurança • Arquitetura de Redes • Automação Inteligente</text>
+
+    <!-- Item 5: FOCO -->
+    <text x="35" y="392" fill="#F59E0B" font-weight="700">◇ FOCO</text>
+    <text x="170" y="392" fill="#E2E8F0">Eliminar tarefas repetitivas com código e elevar a segurança operacional</text>
+
+    <!-- Item 6: COMBUSTÍVEL -->
+    <text x="35" y="430" fill="#F59E0B" font-weight="700">◇ COMBUSTÍVEL</text>
+    <text x="170" y="430" fill="#E2E8F0">Café, terminal aberto e problemas complexos de infraestrutura</text>
+  </g>
+
+  <!-- Bottom Terminal Status Bar -->
+  <rect x="35" y="458" width="780" height="22" rx="3" fill="#131020" stroke="#251E3B" stroke-width="0.8"/>
+  <circle cx="50" cy="469" r="3" fill="#A855F7"/>
+  <text x="62" y="473" fill="#94A3B8" font-size="9" letter-spacing="1" class="mono">NODE_HASH: 0x88F2A • INTEGRITY: VERIFIED • PROTOCOL: SSHv2_ENCRYPTED</text>
+</svg>

@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 240" width="100%" height="240">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090D"/>
+      <stop offset="50%" stop-color="#0F0D18"/>
+      <stop offset="100%" stop-color="#09090D"/>
+    </linearGradient>
+
+    <!-- Radar Sweep Gradient -->
+    <linearGradient id="radarSweep" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#7C3AED" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Neon Glow Filters -->
+    <filter id="purpleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="amberGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle Circuit Pattern -->
+    <pattern id="tacticalGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#251E3B" stroke-width="0.7" stroke-opacity="0.4"/>
+      <circle cx="0" cy="0" r="1" fill="#7C3AED" fill-opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulseLive {
+      0%, 100% { opacity: 1; r: 3.5; }
+      50% { opacity: 0.3; r: 2; }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(-240px); }
+      100% { transform: translateY(240px); }
+    }
+    @keyframes radarRotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes glitchText {
+      0%, 92%, 100% { transform: translate(0, 0); opacity: 1; }
+      93% { transform: translate(-1.5px, 0.5px); opacity: 0.8; }
+      95% { transform: translate(1.5px, -0.5px); opacity: 0.9; }
+      97% { transform: translate(0, 0); }
+    }
+    @keyframes packetFlow {
+      0% { stroke-dashoffset: 60; }
+      100% { stroke-dashoffset: 0; }
+    }
+    .live-dot { animation: pulseLive 2s infinite ease-in-out; }
+    .scan-beam { animation: scanline 8s linear infinite; }
+    .radar-arm { transform-origin: 730px 120px; animation: radarRotate 6s linear infinite; }
+    .glitch-title { animation: glitchText 7s infinite ease-in-out; font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace; }
+    .packet-line { stroke-dasharray: 6 12; animation: packetFlow 2s linear infinite; }
+  </style>
+
+  <!-- Base Plate -->
+  <rect x="0" y="0" width="850" height="240" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="850" height="240" fill="url(#tacticalGrid)"/>
+
+  <!-- Scanning Line Effect -->
+  <line x1="0" y1="0" x2="850" y2="0" stroke="#A855F7" stroke-width="1.2" stroke-opacity="0.25" class="scan-beam"/>
+
+  <!-- Tactical HUD Outer Border & Corner Brackets -->
+  <rect x="15" y="15" width="820" height="210" fill="none" stroke="#251E3B" stroke-width="1.2"/>
+  
+  <!-- Corner Brackets -->
+  <path d="M 15 35 L 15 15 L 35 15" fill="none" stroke="#A855F7" stroke-width="2.5" filter="url(#purpleGlow)"/>
+  <path d="M 835 35 L 835 15 L 815 15" fill="none" stroke="#A855F7" stroke-width="2.5" filter="url(#purpleGlow)"/>
+  <path d="M 15 205 L 15 225 L 35 225" fill="none" stroke="#A855F7" stroke-width="2.5" filter="url(#purpleGlow)"/>
+  <path d="M 835 205 L 835 225 L 815 225" fill="none" stroke="#A855F7" stroke-width="2.5" filter="url(#purpleGlow)"/>
+
+  <!-- Top System Status Header -->
+  <text x="35" y="38" fill="#94A3B8" font-size="10" letter-spacing="2" class="mono">SEC_OPS // NET_ORCHESTRATION_SYS</text>
+  <text x="360" y="38" fill="#7C3AED" font-size="9" letter-spacing="1.5" class="mono">NODE://MARCOS-AOSF.L2L3</text>
+  
+  <!-- Live Signal Indicator -->
+  <circle cx="770" cy="35" r="3.5" fill="#F59E0B" filter="url(#amberGlow)" class="live-dot"/>
+  <text x="780" y="38" fill="#FBBF24" font-size="10" font-weight="700" letter-spacing="1" class="mono">ONLINE</text>
+
+  <!-- Network Circuit Lines (Left to Center) -->
+  <path d="M 35 60 L 160 60 L 180 80 L 320 80" fill="none" stroke="#251E3B" stroke-width="1.2"/>
+  <path d="M 35 60 L 160 60 L 180 80 L 320 80" fill="none" stroke="#A855F7" stroke-width="1.2" stroke-opacity="0.7" class="packet-line"/>
+  <circle cx="320" cy="80" r="2.5" fill="#A855F7"/>
+
+  <!-- Main Hero Callout -->
+  <g class="glitch-title">
+    <text x="35" y="112" fill="#E2E8F0" font-size="40" font-weight="900" letter-spacing="3.5">
+      MARCOS AOSF
+    </text>
+    <text x="35" y="112" fill="#A855F7" font-size="40" font-weight="900" letter-spacing="3.5" opacity="0.3" filter="url(#purpleGlow)">
+      MARCOS AOSF
+    </text>
+  </g>
+
+  <!-- Subtitle with HUD Tagging -->
+  <g class="mono">
+    <rect x="35" y="130" width="135" height="18" fill="#7C3AED" fill-opacity="0.2" stroke="#A855F7" stroke-width="0.8"/>
+    <text x="43" y="143" fill="#C084FC" font-size="9.5" font-weight="700" letter-spacing="1.2">ANALISTA DE REDES</text>
+
+    <rect x="178" y="130" width="145" height="18" fill="#F59E0B" fill-opacity="0.15" stroke="#F59E0B" stroke-width="0.8"/>
+    <text x="186" y="143" fill="#FBBF24" font-size="9.5" font-weight="700" letter-spacing="1.2">AUTOMAÇÃO &amp; IA DEV</text>
+
+    <rect x="331" y="130" width="155" height="18" fill="#251E3B" stroke="#7C3AED" stroke-width="0.8"/>
+    <text x="339" y="143" fill="#E2E8F0" font-size="9.5" font-weight="600" letter-spacing="1">CIBERSEGURANÇA (EST.)</text>
+  </g>
+
+  <!-- Spec Badges Bar (Bottom-Left) -->
+  <g class="mono" font-size="9" fill="#94A3B8">
+    <text x="35" y="180">PROTOCOLOS: <tspan fill="#E2E8F0">BGP • OSPF • VLANs • L2/L3 • CDP/LLDP</tspan></text>
+    <text x="35" y="200">STACK: <tspan fill="#FBBF24">Python (Netmiko/Scapy) • Bash • Cisco IOS • Linux Hardening</tspan></text>
+  </g>
+
+  <!-- Radar / Node Matrix Widget (Right Side) -->
+  <g>
+    <!-- Radar Rings -->
+    <circle cx="730" cy="125" r="65" fill="#09090D" stroke="#251E3B" stroke-width="1"/>
+    <circle cx="730" cy="125" r="45" fill="none" stroke="#251E3B" stroke-width="0.8"/>
+    <circle cx="730" cy="125" r="25" fill="none" stroke="#7C3AED" stroke-width="0.8" stroke-opacity="0.5"/>
+    <circle cx="730" cy="125" r="6" fill="#F59E0B" filter="url(#amberGlow)"/>
+
+    <!-- Crosshairs -->
+    <line x1="655" y1="125" x2="805" y2="125" stroke="#251E3B" stroke-width="0.8"/>
+    <line x1="730" y1="50" x2="730" y2="200" stroke="#251E3B" stroke-width="0.8"/>
+
+    <!-- Rotating Radar Sector -->
+    <path d="M 730 125 L 775 80 A 65 65 0 0 1 795 125 Z" fill="url(#radarSweep)" class="radar-arm"/>
+
+    <!-- Dynamic Pings -->
+    <circle cx="700" cy="100" r="2.5" fill="#A855F7">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="755" cy="155" r="2" fill="#FBBF24">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="760" cy="95" r="2" fill="#C084FC">
+      <animate attributeName="opacity" values="0.8;0.1;0.8" dur="3s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Radar Telemetry Labels -->
+    <text x="690" y="202" fill="#7C3AED" font-size="8" letter-spacing="1" class="mono">RADAR: ACTIVE</text>
+    <text x="765" y="202" fill="#F59E0B" font-size="8" letter-spacing="0.5" class="mono">L2_SNIFFER</text>
+  </g>
+
+  <!-- Lower Tech Details Line -->
+  <line x1="35" y1="212" x2="630" y2="212" stroke="#251E3B" stroke-width="0.8"/>
+  <text x="635" y="215" fill="#94A3B8" font-size="7.5" letter-spacing="1.5" class="mono">SYS_VER 4.2.0 // LATENCY 1.2ms // SECURE CONSOLE</text>
+</svg>

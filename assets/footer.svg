@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 110" width="100%" height="110">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F0D18"/>
+      <stop offset="100%" stop-color="#09090D"/>
+    </linearGradient>
+    <linearGradient id="glowG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#A855F7" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#F59E0B" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#A855F7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono {{ font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace; }}
+    @keyframes pulseLed {{
+      0%, 100% {{ opacity: 0.9; }}
+      50% {{ opacity: 0.3; }}
+    }}
+    .led {{ animation: pulseLed 1.8s infinite ease-in-out; }}
+  </style>
+
+  <rect x="0" y="0" width="850" height="110" fill="url(#footerBg)"/>
+  <line x1="0" y1="0" x2="850" y2="0" stroke="url(#glowG)" stroke-width="1.5"/>
+
+  <!-- Datacenter Server Rack Silhouettes in Background -->
+  <g fill="#171326" stroke="#251E3B" stroke-width="0.8">
+    <rect x="50" y="30" width="70" height="80" rx="2"/>
+    <rect x="130" y="20" width="70" height="90" rx="2"/>
+    <rect x="650" y="20" width="70" height="90" rx="2"/>
+    <rect x="730" y="30" width="70" height="80" rx="2"/>
+
+    <!-- Server LED Blinkers -->
+    <circle cx="65" cy="40" r="1.8" fill="#F59E0B" class="led"/>
+    <circle cx="75" cy="40" r="1.8" fill="#A855F7"/>
+    <circle cx="145" cy="30" r="1.8" fill="#A855F7" class="led"/>
+    <circle cx="155" cy="30" r="1.8" fill="#F59E0B"/>
+    <circle cx="665" cy="30" r="1.8" fill="#F59E0B" class="led"/>
+    <circle cx="745" cy="40" r="1.8" fill="#A855F7"/>
+  </g>
+
+  <!-- Central Badge & Mission Statement -->
+  <g class="mono" text-anchor="middle">
+    <rect x="245" y="25" width="360" height="28" rx="4" fill="#09090D" stroke="#7C3AED" stroke-width="1"/>
+    <text x="425" y="43" fill="#E2E8F0" font-size="11" font-weight="700" letter-spacing="1.5">
+      SEC_PROTOCOL // MISSION_COMPLETE
+    </text>
+
+    <text x="425" y="75" fill="#94A3B8" font-size="10" letter-spacing="0.5">
+      Iniciado e orquestrado por <tspan fill="#FBBF24" font-weight="700">Marcos Aosf</tspan> • L2/L3 &amp; Cyber Defense
+    </text>
+    <text x="425" y="93" fill="#7C3AED" font-size="9" letter-spacing="1">
+      TERMINAL STATUS: ACTIVE • DISPATCHING TELEMETRY 24/7
+    </text>
+  </g>
+</svg>

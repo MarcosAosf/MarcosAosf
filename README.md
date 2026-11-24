@@ -1,104 +1,181 @@
 <div align="center">
 
-  <!-- Banner Principal -->
-  <img src="assets/banner.png" alt="Marcos Aosf - Redes, Cibersegurança & Automação" width="100%" />
+  <!-- HERO TACTICAL BANNER -->
+  <img src="assets/hero-banner.svg" alt="Marcos Aosf — Tactical HUD Banner" width="100%" />
 
-  <br><br>
+  <!-- TERMINAL TYPEWRITER BAR -->
+  <img src="assets/typing-bar.svg" alt="Typewriter Terminal Bar" width="100%" />
 
-  <!-- Badges de Contato e Identidade -->
+  <br>
+
+  <!-- QUICK ACTION BADGES (PRESERVADOS E ESTILIZADOS NA PALETA ROXO/AMBAR/CYBER) -->
   <a href="https://marcosaosf.github.io/cyberaosf/">
-    <img src="https://img.shields.io/badge/Portf%C3%B3lio-cyberaosf-00f3ff?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfólio" />
+    <img src="https://img.shields.io/badge/PORTFÓLIO-0F0D18?style=for-the-badge&logo=googlechrome&logoColor=F59E0B&labelColor=09090D" alt="Portfólio" />
+  </a>
+  <a href="https://linkedin.com">
+    <img src="https://img.shields.io/badge/LINKEDIN-0F0D18?style=for-the-badge&logo=linkedin&logoColor=A855F7&labelColor=09090D" alt="LinkedIn" />
   </a>
   <a href="mailto:marcosaosf2010@gmail.com">
-    <img src="https://img.shields.io/badge/E--mail-marcosaosf2010%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" />
+    <img src="https://img.shields.io/badge/EMAIL-0F0D18?style=for-the-badge&logo=gmail&logoColor=F59E0B&labelColor=09090D" alt="E-mail" />
   </a>
   <a href="https://discord.gg/SkyWalkher#7766">
-    <img src="https://img.shields.io/badge/Discord-SkyWalkher%237766-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+    <img src="https://img.shields.io/badge/DISCORD-0F0D18?style=for-the-badge&logo=discord&logoColor=A855F7&labelColor=09090D" alt="Discord" />
   </a>
   <a href="https://app.hackthebox.com/profile/2930902">
-    <img src="https://img.shields.io/badge/HackTheBox-Aosf-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black" alt="HackTheBox" />
+    <img src="https://img.shields.io/badge/HACKTHEBOX-0F0D18?style=for-the-badge&logo=hackthebox&logoColor=F59E0B&labelColor=09090D" alt="HackTheBox" />
   </a>
 
 </div>
 
 <br>
 
-### 👨‍💻 Sobre Mim // `whoami`
+<!-- SEÇÃO 01: SYS.INFO -->
+<img src="assets/header-01-sysinfo.svg" width="100%" alt="01 // SYS.INFO" />
 
-```bash
-root@marcos:~# whoami
-Marcos Aosf — Analista de Suporte de Redes (N2) • Cibersegurança • Engenheiro de Automação
-```
+<p align="center">
+  <img src="assets/card-sobre.svg" width="100%" alt="Ficha Técnica HUD — Sobre Marcos Aosf" />
+</p>
 
-Atuo na sustentação de infraestrutura de conectividade corporativa, resolução de incidentes críticos de camada 2 e camada 3, roteamento estático/dinâmico e automação de rotinas operacionais com scripts em Python e Bash.
+<!-- SEÇÃO 02: ARSENAL -->
+<img src="assets/header-02-arsenal.svg" width="100%" alt="02 // ARSENAL" />
 
-* 🌐 **Redes & Infraestrutura:** Roteadores e Switches Cisco (Catalyst, ISR), Mikrotik RouterOS, VLANs, Spanning-Tree, OSPF, BGP e análise de tráfego com Wireshark.
-* ⚡ **Automação de Redes & Infraestrutura:** Desenvolvimento de scripts com Netmiko, Scapy, Paramiko e templates Jinja2 para backup automatizado e auditoria de configurações.
-* 🛡️ **Segurança & Hardening:** Blindagem de servidores Linux, auditoria de regras de firewall (IPTables/UFW), análise de vulnerabilidades com Nmap e práticas de conformidade CIS.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,bash,linux,cisco,powershell,js,ts,threejs,html,css,git,github,docker,regex,postman&theme=dark&perline=15" alt="Arsenal Tecnológico" />
+</p>
 
----
+<p align="center">
+  <img src="assets/quote-arsenal.svg" width="100%" alt="Cada script, uma defesa" />
+</p>
 
-### 🚀 Projetos em Destaque
+◆ **INFRAESTRUTURA &amp; REDES**<br>
+<kbd>Cisco IOS</kbd> <kbd>Switches L2/L3</kbd> <kbd>Roteadores ISR</kbd> <kbd>VoIP / CME</kbd> <kbd>VLANs &amp; Trunking</kbd> <kbd>Spanning-Tree (STP)</kbd> <kbd>OSPF</kbd> <kbd>BGP</kbd> <kbd>TCP/IP</kbd> <kbd>Wireshark</kbd> <kbd>VPN / Radmin</kbd> <kbd>Wake-on-LAN</kbd> <kbd>Linux Sysadmin</kbd> <kbd>Windows Server</kbd>
 
-| Projeto | Descrição | Tecnologias |
+<br><br>
+
+◆ **CIBERSEGURANÇA &amp; HARDENING**<br>
+<kbd>Hardening de Servidores</kbd> <kbd>IPTables / UFW</kbd> <kbd>CIS Benchmarks</kbd> <kbd>Nmap Vuln Scanning</kbd> <kbd>Análise de Tráfego L2</kbd> <kbd>CDP / LLDP Sniffing</kbd> <kbd>Segurança Perimétrica</kbd> <kbd>SOC Telemetry</kbd> <kbd>HackTheBox</kbd>
+
+<br><br>
+
+◆ **AUTOMAÇÃO &amp; IA ORCHESTRATION**<br>
+<kbd>Python</kbd> <kbd>Netmiko</kbd> <kbd>Scapy</kbd> <kbd>Paramiko</kbd> <kbd>Jinja2 Templating</kbd> <kbd>Bash Scripting</kbd> <kbd>PowerShell CLI</kbd> <kbd>Multi-Agentes</kbd> <kbd>Gemini API</kbd> <kbd>GitHub Actions CI/CD</kbd>
+
+<br><br>
+
+◆ **DESENVOLVIMENTO &amp; FERRAMENTAS**<br>
+<kbd>JavaScript (ES6+)</kbd> <kbd>TypeScript</kbd> <kbd>Three.js WebGL</kbd> <kbd>HTML5 / CSS3 Moderno</kbd> <kbd>REST APIs</kbd> <kbd>Git</kbd> <kbd>GitHub</kbd> <kbd>GitHub Pages</kbd> <kbd>Lua</kbd>
+
+<br>
+
+<!-- SEÇÃO 03: DEPLOYMENTS -->
+<img src="assets/header-03-deployments.svg" width="100%" alt="03 // DEPLOYMENTS" />
+
+<p align="center">
+  <img src="assets/quote-deployments.svg" width="100%" alt="Operações em andamento" />
+</p>
+
+| Operação / Repositório | Briefing Técnico | Stack &amp; Perfil |
 | :--- | :--- | :--- |
-| 🌐 **[NetOps-AutoPilot](https://github.com/MarcosAosf/netops-autopilot)** | Framework de automação de redes multi-vendor (Cisco, Mikrotik) com backup SHA256, diff e provisionamento Jinja2. | `Python` `Netmiko` `Scapy` `Jinja2` |
-| 🖥️ **[Cisco Network Simulator](https://github.com/MarcosAosf/cisco-network-simulator)** | Dashboard interativo de treinamento com simulador CLI Cisco IOS em tempo real. [👉 Live Demo](https://marcosaosf.github.io/cisco-network-simulator/) | `Cisco IOS` `React` `Tailwind` |
-| 📊 **[NetPulse-3D](https://github.com/MarcosAosf/netpulse-3d)** | Cockpit 3D em WebGL para visualização de topologias de rede cloud e telemetria SOC. [👉 Live Demo](https://marcosaosf.github.io/netpulse-3d/) | `Three.js` `WebGL` `OpenTelemetry` |
-| 🔍 **[ZTerm VulnScanner](https://github.com/MarcosAosf/zterm-scanner)** | Wrapper automatizado de scan de portas com Nmap e correlação de CVEs em Markdown. | `Python` `Nmap` `API` |
-| 🛡️ **[Hardening & Governance](https://github.com/MarcosAosf/bash-hardening)** | Ferramenta de blindagem e auditoria de segurança para servidores Linux e firewalls. | `Bash` `Hardening` `Firewall` |
-| 📡 **[CDPR-SCAN](https://github.com/MarcosAosf/CDPR-SCAN)** | Mapeamento passivo de topologia de switches conectados à estação de trabalho via pacotes CDP/LLDP. | `Bash` `PowerShell` `Network` |
+| 📡 **[CDPR-SCAN](https://github.com/MarcosAosf/CDPR-SCAN)** | Mapeamento passivo de switches e topologia conectada à estação via pacotes CDP/LLDP com launcher interativo UAC. | `Python` `Scapy` `Rich` `Batch` `L2 Raw` |
+| 🌐 **[NetOps-AutoPilot](https://github.com/MarcosAosf/netops-autopilot)** | Framework de automação multi-vendor (Cisco, Mikrotik) com rotinas de backup SHA256, diff e provisionamento Jinja2. | `Python` `Netmiko` `Scapy` `Jinja2` `Cisco` |
+| 🖥️ **[Cisco Network Simulator](https://github.com/MarcosAosf/cisco-network-simulator)** | Dashboard interativo para treinamento em redes com simulador CLI Cisco IOS em tempo real. [👉 Live Demo](https://marcosaosf.github.io/cisco-network-simulator/) | `Cisco IOS` `React` `Tailwind` `CLI Engine` |
+| 📊 **[NetPulse-3D](https://github.com/MarcosAosf/netpulse-3d)** | Cockpit 3D em tempo real para observabilidade de topologia de redes cloud e telemetria SOC. [👉 Live Demo](https://marcosaosf.github.io/netpulse-3d/) | `Three.js` `WebGL` `Canvas 60FPS` `SRE` |
+| 🛡️ **[bash-hardening](https://github.com/MarcosAosf/bash-hardening)** | Ferramenta de blindagem e auditoria de infraestrutura Linux, controle de UFW/IPTables e análise de logs. | `Bash` `Hardening` `Firewall` `SysAdmin` |
+| 🐝 **[ProjetoMeliponicultura](https://github.com/MarcosAosf/ProjetoMeliponicultura)** | Aplicação web interativa para preservação e catalogação de meliponíneos e sistemas ecológicos. | `JavaScript` `HTML5` `CSS3` `PowerShell` |
+| 💻 **[cyberaosf](https://github.com/MarcosAosf/cyberaosf)** | Quartel-general digital: portfólio completo com terminal interativo, labs e certificações. [👉 Ver Portfólio](https://marcosaosf.github.io/cyberaosf/) | `HTML5` `Vanilla JS` `Matrix Canvas` `i18n` |
+
+<br>
+
+<details>
+<summary><strong>📜 Formação Acadêmica &amp; Credenciais Oficiais (Clique para expandir)</strong></summary>
+
+<br>
+
+### 🎓 Formação Acadêmica
+- **Pós-Graduação em Engenharia de Redes e Segurança de Dados** — Faculdade Líbano (2026).  
+  *Foco: Alta disponibilidade, protocolos de roteamento, conectividade corporativa e governança.*
+- **Pós-Graduação em Cibersegurança &amp; Segurança da Informação** — Faculdade Líbano (2026).  
+  *Foco: Defesa em profundidade, resposta a incidentes, compliance e gestão de vulnerabilidades.*
+- **Graduação em Análise e Desenvolvimento de Sistemas (ADS)** — Estácio (2023 – 2025).  
+  *Foco: Algoritmos, banco de dados relacionais e modelagem de software.*
+- **Curso Técnico em Tecnologia da Informação** — ETEC Centro Paula Souza (2018 – 2020).
 
 ---
 
-### 🛠️ Tecnologias & Ferramentas
+### 🛡️ Certificações &amp; Extensões Relevantes
+- **Cisco Cyber Threat Management** — Cisco Networking Academy / [Credly Badge](https://www.credly.com/badges/c41651a4-65f7-401b-b1db-a031ed5dd296)
+- **Operação Curupira 3.0 (Guardião Cibernético 8.0)** — GoHacking (Defesa de Infraestrutura Crítica &amp; Pentest)
+- **FIAP Cybersecurity** — FIAP (Governança, Perímetro e Segurança Defensiva)
+- **Fibra Óptica Avançada &amp; OTDR Anritsu MT9085A** — INPE (Fusão com máquina Inno View 6S, DGO e testes ópticos)
+- **Computação Científica com Python** — INPE (Análise de dados com NumPy, SciPy e Pandas)
+- **Bootcamp Santander Cibersegurança &amp; Pentest** — DIO / Santander
+
+</details>
+
+<br>
+
+<!-- SEÇÃO 04: TELEMETRY -->
+<img src="assets/header-04-telemetry.svg" width="100%" alt="04 // TELEMETRY" />
+
+<p align="center">
+  <img src="assets/stats-hud.svg" width="100%" alt="Painel de Telemetria — Stats HUD" />
+</p>
+
+<!-- SEÇÃO 05: ARCADE -->
+<img src="assets/header-05-arcade.svg" width="100%" alt="05 // ARCADE" />
+
+<p align="center"><em>Cada commit, um disparo interceptado. Histórico de contribuições em modo Space Invaders / Galaga.</em></p>
+
+<p align="center">
+  <img src="assets/arcade.gif" width="100%" alt="Galaga Space Shooter Contribution Arcade" onerror="this.src='assets/hero-banner.svg'; this.style.display='none';" />
+</p>
+
+<p align="center">
+  <sub>*(Gráfico dinâmico renderizado automaticamente via GitHub Actions com <code>czl9707/gh-space-shooter</code>)*</sub>
+</p>
+
+<br>
+
+<!-- SEÇÃO 06: CONTATO -->
+<img src="assets/header-06-contato.svg" width="100%" alt="06 // CONTATO" />
+
+<p align="center">
+  <img src="assets/quote-contato.svg" width="100%" alt="Canal criptografado aberto" />
+</p>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash_Script-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cisco-049fd9?style=for-the-badge&logo=cisco&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Netmiko-22c55e?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/HackTheBox-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black" />
-  <img src="https://img.shields.io/badge/TryHackMe-880000?style=for-the-badge&logo=tryhackme&logoColor=white" />
+
+  <p><em>Redes, suporte avançado, automação com Python ou projetos em cibersegurança:</em></p>
+
+  <p>
+    📬 <b>E-mail:</b> <a href="mailto:marcosaosf2010@gmail.com"><code>marcosaosf2010@gmail.com</code></a> &nbsp;•&nbsp;
+    🌐 <b>Portfólio:</b> <a href="https://marcosaosf.github.io/cyberaosf/"><code>cyberaosf</code></a> &nbsp;•&nbsp;
+    💼 <b>LinkedIn:</b> <a href="https://linkedin.com"><code>Marcos Aosf</code></a>
+  </p>
+
+  <p>
+    🎮 <b>Discord:</b> <code>SkyWalkher#7766</code> &nbsp;•&nbsp;
+    🛡️ <b>HackTheBox:</b> <a href="https://app.hackthebox.com/profile/2930902"><code>Aosf [Enrolled]</code></a>
+  </p>
+
+  <br>
+
+  <!-- FOOTER TACTICAL COMPONENT -->
+  <img src="assets/footer.svg" width="100%" alt="Footer Tactical Protocol" />
+
 </div>
 
 <br>
 
----
-
-### 📊 Estatísticas do GitHub & Conquistas
-
-<table border="0" width="100%">
-  <tr align="center" style="background-color: transparent; border: none;">
-    <td style="border: none;">
-      <img src="https://github-readme-stats.vercel.app/api?username=MarcosAosf&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" height="195px" />
-    </td>
-    <td style="border: none;">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MarcosAosf&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" height="195px" />
-    </td>
-  </tr>
-  <tr align="center" style="background-color: transparent; border: none;">
-    <td style="border: none;">
-      <a href="https://app.hackthebox.com/profile/2930902">
-        <img src="https://www.hackthebox.com/badge/image/2930902" height="120px" />
-      </a>
-    </td>
-    <td style="border: none;">
-      <img src="https://streak-stats.demolab.com/?user=MarcosAosf&theme=tokyonight&hide_border=true&background=0D1117" height="150px" />
-    </td>
-  </tr>
-</table>
+<details>
+<summary>⚙️ <strong>Arquitetura &amp; Automação deste Perfil (Clique para inspecionar)</strong></summary>
 
 <br>
 
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
-</div>
+Este perfil é executado sobre uma infraestrutura orientada a eventos e código vetorial (sem scripts client-side):
+- **Motor Gráfico:** SVGs animados com CSS puro (`@keyframes`) e gradientes vetoriais em escala de 850px.
+- **Telemetria (`update-stats.yml`):** Script em Python que consome a API GraphQL do GitHub com token de autorização, calcula níveis operacionais e gera o painel `assets/stats-hud.svg`.
+- **Arcade Space Shooter (`update-arcade.yml`):** Action que transforma o histórico anual de commits em um arcade animado estilo Galaga (`assets/arcade.gif`).
+- **Paleta de Alta Densidade:** Obsidian (`#09090D`), Cyber Purple (`#A855F7`), Glow (`#7C3AED`) e Telemetry Amber (`#F59E0B`).
 
-<br>
-
-<div align="center">
-  <sub>Construído com dedicação por <b>Marcos Aosf</b> // Focado em Redes, Segurança e Automação</sub>
-</div>
+</details>
