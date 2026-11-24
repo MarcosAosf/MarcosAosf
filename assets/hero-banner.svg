@@ -158,6 +158,6 @@
   </g>
 
   <!-- Lower Tech Details Line -->
-  <line x1="35" y1="212" x2="630" y2="212" stroke="#251E3B" stroke-width="0.8"/>
-  <text x="635" y="215" fill="#94A3B8" font-size="7.5" letter-spacing="1.5" class="mono">SYS_VER 4.3.0 // LATENCY 1.2ms // SECURE CONSOLE</text>
+  <line x1="35" y1="212" x2="570" y2="212" stroke="#251E3B" stroke-width="0.8"/>
+  <text x="825" y="215" text-anchor="end" fill="#94A3B8" font-size="7.5" letter-spacing="1" class="mono">SYS_VER 4.3.0 // LATENCY 1.2ms // SECURE CONSOLE</text>
 </svg>
