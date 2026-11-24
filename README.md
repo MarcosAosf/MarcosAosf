@@ -40,7 +40,7 @@
 <img src="assets/header-02-arsenal.svg" width="100%" alt="02 // ARSENAL" />
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cisco,linux,windows,py,bash,powershell,js,threejs,html,css,git,github,docker,regex,postman&theme=dark&perline=15" alt="Arsenal Tecnológico" />
+  <img src="assets/arsenal-icons.svg" width="100%" alt="Tech Stack Icons — Windows, Linux, macOS, Cisco, Zabbix, Grafana, Python, Bash, PowerShell, JS, Node.js, Three.js, Git, GitHub Actions" />
 </p>
 
 <p align="center">
