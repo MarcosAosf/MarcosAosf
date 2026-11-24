@@ -25,10 +25,10 @@
   <!-- Number & Title -->
   <text x="20" y="34" fill="#A855F7" font-size="16" font-weight="900" class="mono" filter="url(#glowHead_02)">02</text>
   <text x="52" y="34" fill="#F59E0B" font-size="15" font-weight="700" class="mono">//</text>
-  <text x="75" y="34" fill="#E2E8F0" font-size="16" font-weight="800" letter-spacing="2" class="mono">ARSENAL</text>
+  <text x="75" y="34" fill="#E2E8F0" font-size="15" font-weight="800" letter-spacing="1.5" class="mono">ARSENAL</text>
 
   <!-- Dynamic Guideline Line -->
-  <line x1="162" y1="30" x2="720" y2="30" stroke="url(#gradLine_02)" stroke-width="1.2"/>
+  <line x1="162" y1="30" x2="715" y2="30" stroke="url(#gradLine_02)" stroke-width="1.2"/>
   <circle cx="162" cy="30" r="2.5" fill="#A855F7"/>
 
   <!-- Right Technical Badge Tag -->

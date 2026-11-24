@@ -25,14 +25,14 @@
   <!-- Number & Title -->
   <text x="20" y="34" fill="#A855F7" font-size="16" font-weight="900" class="mono" filter="url(#glowHead_04)">04</text>
   <text x="52" y="34" fill="#F59E0B" font-size="15" font-weight="700" class="mono">//</text>
-  <text x="75" y="34" fill="#E2E8F0" font-size="16" font-weight="800" letter-spacing="2" class="mono">TELEMETRY</text>
+  <text x="75" y="34" fill="#E2E8F0" font-size="15" font-weight="800" letter-spacing="1.5" class="mono">FORMAÇÃO &amp; CREDENCIAIS</text>
 
   <!-- Dynamic Guideline Line -->
-  <line x1="184" y1="30" x2="720" y2="30" stroke="url(#gradLine_04)" stroke-width="1.2"/>
-  <circle cx="184" cy="30" r="2.5" fill="#A855F7"/>
+  <line x1="335" y1="30" x2="715" y2="30" stroke="url(#gradLine_04)" stroke-width="1.2"/>
+  <circle cx="335" cy="30" r="2.5" fill="#A855F7"/>
 
   <!-- Right Technical Badge Tag -->
   <rect x="725" y="16" width="120" height="24" rx="3" fill="#0F0D18" stroke="#251E3B" stroke-width="1"/>
   <circle cx="738" cy="28" r="3" fill="#A855F7"/>
-  <text x="748" y="32" fill="#94A3B8" font-size="9" font-weight="700" letter-spacing="1" class="mono">STATS.HUD</text>
+  <text x="748" y="32" fill="#94A3B8" font-size="9" font-weight="700" letter-spacing="1" class="mono">LORE.SYS</text>
 </svg>
